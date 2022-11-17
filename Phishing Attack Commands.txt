@@ -1,0 +1,28 @@
+**Commands that you have to write on kali linux terminal**
+
+**First open Social Engineering toolkit(root). from application**
+
+settoolkit
+
+**Select Social-Engineering Attacks**
+
+1
+
+**Select website attack vectors.**
+
+2
+
+**Select Credential Harvester Attack Method.**
+
+3
+
+**Select Site cloner**
+
+2
+
+**Enter the URL to clone**
+
+https://www.linkedin.com/login
+
+**Then Sign in the fake site and get ID /password from Terminal** 
+
