@@ -1,6 +1,6 @@
  Cyber-Security-project-on-local-network
  
- First You have to run kali linux on your virtual machine in windows/Linux. My operating system is windows.So, I first Download VMWARE WORKSTATION 16 PRO(Virtual Machine) frpm here
+ First You have to run kali linux on your virtual machine in windows/Linux. My operating system is windows.So, I first Download VMWARE WORKSTATION 16 PRO(Virtual Machine) from here:
  https://www.vmware.com/go/getworkstation-win
  
  Now, You have to download kali linux from here:
