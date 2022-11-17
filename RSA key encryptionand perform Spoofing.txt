@@ -1,0 +1,37 @@
+**First go to Root terminal from application**
+sudo su
+**sudo password**
+kali
+
+cd Desktop/
+
+openssl genrsa -out private.pem 2048
+
+cat private.pem
+
+**For generate Public key**
+openssl rsa -in private.pem -out public.pem -outfrom PEM -pubout 
+
+cat public.pem
+
+
+**here text what you want to encrypt**
+
+nano encryptedMessage.txt
+
+
+**Encrypted command**
+openssl pkeyutl -encrypt -inkey public.pem -pubin -in encrypted -out encryptedMessage.txt
+
+cat encryptedMessage.txt
+
+cat encryptedMessage.ssl
+
+**For Decryption**
+openssl pkeyutl decrypt -inkey private.pem -in encryptedMessage.ssl -out encryptedMessage1.txt
+
+openssl pkeyutl -decrypt -inkey private.pem -in encryptedMessage.ssl -out encryptedMessage1.txt
+
+cat encryptedMessage1.txt
+
+
